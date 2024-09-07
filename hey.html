@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#000000" />
+		<title>Queer Gear</title>
+		<style>
+			html {
+				font-family: sans-serif;
+				background: rgb(32, 32, 32);
+				background: radial-gradient(
+					circle,
+					rgba(32, 32, 32, 1) 0%,
+					rgba(0, 0, 0, 1) 100%
+				);
+				height: 100vh;
+			}
+
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				margin: 0;
+			}
+
+			div {
+				display: flex;
+				flex-direction: column;
+				justify-items: center;
+				align-items: center;
+			}
+
+			img {
+				width: 90vw;
+				margin: 2% 0% 2% 0%;
+				display: block;
+			}
+
+			img.small {
+				width: 30vw;
+			}
+
+			a:hover img,
+			a:active img {
+				box-shadow: 0 0 4vw #ffffff60;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="gwtf.svg" class="small" />
+			<a href="https://www.instagram.com/rubberboots89/">
+				<img src="insta.svg" />
+			</a>
+			<a href="https://rubber.social/@queer_workwear">
+				<img src="fedi.svg" />
+			</a>
+			<img src="jtck.svg" class="small" />
+		</div>
+	</body>
+</html>
